@@ -15,8 +15,8 @@ function draw() {
   text("Choice 1",50,50);
   text("Choice 2",50,100);
   text("Choice 3",50,150);
-  text("Choice 4,50,200);
-  text("Choice 5,50,250);
+  text("Choice 4",50,200);
+  text("Choice 5",50,250);
 }
 function mousePressed() {
     choice = int(random(5));
